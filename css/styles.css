@@ -1,0 +1,47 @@
+body {
+  background-color: #eaf6f6;
+}
+
+.menu {
+  max-width: 1500px;
+  height: 50px;
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+  background-color: #eaf6f6;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 10px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  align-items: center;
+  height: 100%;
+}
+table {
+  border-spacing: 20px;
+  border-collapse: separate;
+}
+hr {
+  color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+img {
+  height: 150px;
+}
+
+h1 {
+  color: #bf9270;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  color: #66bfbf;
+}
